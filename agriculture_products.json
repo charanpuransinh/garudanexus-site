@@ -1,0 +1,1441 @@
+{
+  "catalogue_id": "GARUDA-NEXUS-AGRICULTURE-HERBAL",
+  "file_name": "agriculture_products.json",
+  "version": "1.0.0",
+  "language": "en",
+  "brand": "Garuda Nexus",
+  "division": "Agriculture & Herbal",
+  "design_system": {
+    "visual_direction": "Use the Garuda Nexus corporate design language shown in the supplied website screenshots.",
+    "primary_background": "deep navy blue",
+    "accent": "muted gold",
+    "content_background": "warm off-white",
+    "typography": "classic editorial serif headings with restrained readable body typography",
+    "product_card_image_ratio": "400:220",
+    "image_policy": "Create original product photography or AI-generated artwork for every product. Do not copy third-party product photos, packaging, logos, labels or watermarks. Keep image prompts consistent: white background, front three-quarter angle, soft studio lighting and centered product.",
+    "copyright_note": "Original generated artwork reduces third-party image-copying risk but does not guarantee that no legal claim can ever arise. Review generated assets and trademarks before publication."
+  },
+  "catalogue_rules": {
+    "source_attribution": "Every numeric specification and regulatory statement includes its source name in the same field or parameter entry.",
+    "unknown_values": "Use the literal string 'unverified' when a value or classification has not been confirmed.",
+    "grade_policy": "Separate statutory grades, pharmacopoeial grades, commercial grades and buyer-specific grades. Never present a commercial grade as a statutory certification.",
+    "application_policy": "Industry use is an application description, not a certification. Do not imply that a product is suitable for refinery, pharmaceutical, food or cosmetic use without the buyer specification and required legal compliance.",
+    "hs_code_policy": "Confirm the exact current Indian ITC(HS) classification for the physical form and processing state with Customs / DGFT before export declaration.",
+    "quality_release_policy": "Do not publish a batch as verified or export-ready without lot-specific COA and required laboratory reports."
+  },
+  "shared_export_document_checklist": [
+    "Importer / buyer purchase specification and signed contract",
+    "IEC and exporter registrations applicable to the product",
+    "Commercial Invoice",
+    "Packing List",
+    "Shipping Bill",
+    "Bill of Lading or Air Waybill",
+    "Certificate of Origin where required",
+    "Batch-specific COA",
+    "Phytosanitary certificate where required by product and destination",
+    "Fumigation certificate where required by packaging or destination",
+    "Destination-specific pesticide, heavy metal, microbiology and contaminant reports",
+    "Product-specific import permit, registration or health certificate where required"
+  ],
+  "shared_quality_release_workflow": [
+    "Confirm botanical identity, plant part, intended use and destination country.",
+    "Approve a written buyer specification before quotation or production.",
+    "Verify supplier, origin, traceability, processing site and applicable licences.",
+    "Take a representative sample under a documented sampling plan.",
+    "Test all specification parameters at a competent laboratory; use an appropriately accredited laboratory where required.",
+    "Compare results with the signed specification and current destination-market law.",
+    "Issue a batch-specific COA; do not reuse a COA from another lot.",
+    "Conduct pre-shipment inspection of product, packaging, labels, container hygiene and seal.",
+    "Retain a sealed reference sample and traceability records."
+  ],
+  "products": [
+    {
+      "product_id": "AGR-001",
+      "slug": "guar-gum-powder",
+      "product_name": "Guar Gum Powder",
+      "botanical_name": "Cyamopsis tetragonoloba (L.) Taub.",
+      "plant_part": "Seed endosperm; guar gum is obtained from the endosperm",
+      "product_card": {
+        "title": "Guar Gum Powder",
+        "subtitle": "Natural galactomannan thickener and binder",
+        "short_description": "A plant-derived hydrocolloid used in food, pet food, paper, textile processing and selected oilfield applications.",
+        "image_asset": "images/agriculture/guar-gum-powder.webp",
+        "image_prompt": "Create an original commercial product photograph of fine off-white guar gum powder in a low, neat mound with a small clear glass bowl beside it, a few whole guar beans placed subtly nearby. Pure seamless white background, soft even studio lighting, front three-quarter camera angle, realistic food-grade powder texture, no packaging, no labels, no logos, no text, no watermark. Compose for a consistent 400x220 horizontal crop with the product centered and generous white space."
+      },
+      "grades": [
+        {
+          "grade_name": "Food Grade",
+          "grade_status": "Recognized application category; exact sale specification must be agreed with buyer and verified by COA",
+          "typical_applications": [
+            "Food thickener and stabilizer",
+            "Sauces and dressings",
+            "Bakery and processed foods",
+            "Pet food"
+          ],
+          "selection_note": "Use only material meeting applicable food additive and importing-country requirements. FSSAI lists guar gum as INS 412."
+        },
+        {
+          "grade_name": "Oilfield / Drilling Grade",
+          "grade_status": "Commercial application grade; no universal numeric specification asserted here",
+          "typical_applications": [
+            "Selected oil and gas drilling fluids",
+            "Selected hydraulic-fracturing and shale-gas applications"
+          ],
+          "selection_note": "Do not label this as a refinery-processing grade by default. Buyer must specify viscosity method, concentration, hydration time, particle size, residue and performance requirements."
+        },
+        {
+          "grade_name": "Industrial Grade",
+          "grade_status": "Buyer-specific commercial grade",
+          "typical_applications": [
+            "Paper processing",
+            "Textile printing and finishing",
+            "Water-based industrial formulations"
+          ],
+          "selection_note": "Confirm compatibility and performance against the customer's process specification."
+        }
+      ],
+      "technical_parameters": [
+        {
+          "parameter": "Galactomannans purity",
+          "limit_or_value": "Minimum 77.5% by mass",
+          "source": "FSSAI Food Products Standards and Food Additives Regulations, Guar Gum standard (2023 compendium)"
+        },
+        {
+          "parameter": "Acid-insoluble matter",
+          "limit_or_value": "Maximum 3.0%",
+          "source": "FSSAI Food Products Standards and Food Additives Regulations, Guar Gum standard (2023 compendium)"
+        },
+        {
+          "parameter": "Total ash",
+          "limit_or_value": "Maximum 1.5%",
+          "source": "FSSAI Food Products Standards and Food Additives Regulations, Guar Gum standard (2023 compendium)"
+        },
+        {
+          "parameter": "Protein (N x 5.7)",
+          "limit_or_value": "Maximum 6.0%",
+          "source": "FSSAI Food Products Standards and Food Additives Regulations, Guar Gum standard (2023 compendium)"
+        },
+        {
+          "parameter": "Loss on drying at 105°C for 5 hours",
+          "limit_or_value": "Maximum 12.0%",
+          "source": "FSSAI Food Products Standards and Food Additives Regulations, Guar Gum standard (2023 compendium)"
+        },
+        {
+          "parameter": "Mould and yeast count",
+          "limit_or_value": "Maximum 500 per g",
+          "source": "FSSAI Food Products Standards and Food Additives Regulations, Guar Gum standard (2023 compendium)"
+        },
+        {
+          "parameter": "Viscosity",
+          "limit_or_value": "Buyer-specific; test method, concentration, temperature and spindle/speed must be stated. Numeric value unverified as a universal limit.",
+          "source": "APEDA Guar Gum Product Profile; buyer specification required"
+        },
+        {
+          "parameter": "Mesh / particle size",
+          "limit_or_value": "Buyer-specific; numeric universal limit unverified",
+          "source": "APEDA Guar Gum Product Profile; buyer specification required"
+        }
+      ],
+      "industry_grade_matrix": [
+        {
+          "industry": "Food manufacturing",
+          "recommended_grade": "Food Grade",
+          "basis": "FSSAI INS 412 identity and quality requirements; importing-country additive rules",
+          "mandatory_buyer_confirmation": "Target food application and destination-market compliance"
+        },
+        {
+          "industry": "Oil & Gas / drilling",
+          "recommended_grade": "Oilfield / Drilling Grade",
+          "basis": "APEDA describes guar gum use in oil drilling and shale gas applications",
+          "mandatory_buyer_confirmation": "Fluid system, viscosity test protocol, hydration and performance specification"
+        },
+        {
+          "industry": "Refinery",
+          "recommended_grade": "No generic refinery grade assigned",
+          "basis": "APEDA source describes oil drilling / shale gas and does not establish a universal refinery-processing grade",
+          "mandatory_buyer_confirmation": "Written refinery process specification and successful application trial"
+        },
+        {
+          "industry": "Textile / paper",
+          "recommended_grade": "Industrial Grade",
+          "basis": "APEDA identifies textile and paper uses",
+          "mandatory_buyer_confirmation": "Process compatibility and customer performance test"
+        }
+      ],
+      "standards_and_compliance": [
+        {
+          "standard": "FSSAI Food Products Standards and Food Additives Regulations",
+          "status": "Applicable to food-grade supply in India; check latest amendments"
+        },
+        {
+          "standard": "INS 412",
+          "status": "FSSAI identifies guar gum as INS 412"
+        },
+        {
+          "standard": "AGMARK Guar Gum Grading and Marking Rules, 1982",
+          "status": "Indian grade designation framework; use AGMARK mark only when properly authorised and compliant"
+        },
+        {
+          "standard": "EU food additive and contaminant requirements",
+          "status": "Destination-specific verification required; Regulation (EU) 2023/915 applies to listed contaminants in food"
+        }
+      ],
+      "testing_methods": [
+        {
+          "test": "Identity / galactomannan content",
+          "method": "Use applicable validated FSSAI/BIS or buyer-agreed method; exact method reference unverified here"
+        },
+        {
+          "test": "Loss on drying / moisture",
+          "method": "FSSAI specified loss-on-drying condition for its guar gum standard"
+        },
+        {
+          "test": "Ash and acid-insoluble matter",
+          "method": "Applicable FSSAI/BIS method; exact method number unverified here"
+        },
+        {
+          "test": "Viscosity",
+          "method": "Buyer-agreed rotational viscometer method; report concentration, temperature, hydration time, spindle and speed"
+        },
+        {
+          "test": "Microbiology",
+          "method": "Accredited laboratory methods for specified organisms and counts; panel depends on end use and destination"
+        }
+      ],
+      "packing": [
+        "Food-contact compliant inner liner in multiwall paper bags or other buyer-approved packaging",
+        "Common commercial pack sizes are buyer-specific; 25 kg is seen in APEDA marketplace offers but is not a universal legal requirement",
+        "Moisture-barrier packaging and batch traceability required"
+      ],
+      "hs_code": {
+        "code": "13023202 / 13023203 / 13023220 / 13023230 / 13023231 / 13023239 as product form and tariff description may apply",
+        "status": "Verify exact current Indian ITC(HS) code with Customs broker / DGFT before invoice; do not select code from product name alone",
+        "source": "APEDA Agri Exchange export tariff product listing"
+      },
+      "export_documents_checklist": [
+        "IEC",
+        "Commercial Invoice",
+        "Packing List",
+        "Shipping Bill",
+        "Bill of Lading / Air Waybill",
+        "Certificate of Origin where required",
+        "COA for the shipped batch",
+        "Fumigation / phytosanitary certificate only if required by product, packaging or destination",
+        "FSSAI licence / food compliance documents where applicable",
+        "APEDA registration / RCMC where applicable to exporter and product",
+        "Destination-specific import permits and test certificates"
+      ],
+      "quality_verification_steps": [
+        "Approve buyer specification and intended application before quotation",
+        "Verify supplier identity, manufacturing site, raw-material traceability and applicable licences",
+        "Draw representative lot sample using documented sampling plan",
+        "Test identity, galactomannan, moisture/loss on drying, ash, acid-insoluble matter, protein and microbiology as relevant",
+        "For oilfield grade, run buyer-agreed viscosity and functional performance tests",
+        "Review batch COA against purchase specification and destination rules",
+        "Conduct pre-shipment inspection, packaging integrity and container cleanliness checks",
+        "Retain sealed reference sample and batch records"
+      ],
+      "sources": [
+        {
+          "name": "FSSAI, Food Products Standards and Food Additives Regulations compendium (Guar Gum standard)",
+          "url": "https://www.fssai.gov.in/upload/uploadfiles/files/compendium.pdf"
+        },
+        {
+          "name": "APEDA, Guar Gum product profile",
+          "url": "https://apeda.gov.in/sites/default/files/2024-04/Guargum_final_Profile.pdf"
+        },
+        {
+          "name": "APEDA, Guar Gum overview",
+          "url": "https://apeda.gov.in/GuarGum"
+        },
+        {
+          "name": "APEDA Agri Exchange, export product tariff listing",
+          "url": "https://agriexchange.apeda.gov.in/IndiaExport/Home/SearchFilters"
+        },
+        {
+          "name": "European Commission, Regulation (EU) 2023/915",
+          "url": "https://eur-lex.europa.eu/eli/reg/2023/915/eng"
+        }
+      ]
+    },
+    {
+      "product_id": "AGR-002",
+      "slug": "psyllium-husk",
+      "product_name": "Psyllium Husk",
+      "botanical_name": "Plantago ovata Forssk.",
+      "plant_part": "Dried seed coat / husk",
+      "product_card": {
+        "title": "Psyllium Husk",
+        "subtitle": "Natural soluble fibre ingredient",
+        "short_description": "Clean, dry psyllium seed husk for food, dietary fibre and other buyer-approved applications.",
+        "image_asset": "images/agriculture/psyllium-husk.webp",
+        "image_prompt": "Create an original commercial product photograph of pale ivory translucent psyllium husk flakes in a small neat mound with a clear glass bowl and a few whole psyllium seeds nearby. Pure seamless white background, soft even studio lighting, front three-quarter camera angle, realistic delicate husk texture, no packaging, labels, logos, text or watermark. Center the product for a consistent 400x220 horizontal crop with generous white space."
+      },
+      "grades": [
+        {
+          "grade_name": "Food Grade",
+          "grade_status": "FSSAI ingredient standard exists; buyer specification still required",
+          "typical_applications": [
+            "Fibre supplements",
+            "Food and beverage formulations",
+            "Bakery and food processing"
+          ],
+          "selection_note": "Check FSSAI category and destination-country rules for the final intended use."
+        },
+        {
+          "grade_name": "Pharmaceutical / Compendial Grade",
+          "grade_status": "Pharmacopoeial compliance must be demonstrated against the named edition and monograph; unverified as a generic grade claim",
+          "typical_applications": [
+            "Pharmaceutical formulations where permitted",
+            "Bulk-forming fibre products"
+          ],
+          "selection_note": "Do not claim USP/Ph. Eur./IP compliance unless the exact monograph tests and limits are passed."
+        },
+        {
+          "grade_name": "Industrial / Technical Grade",
+          "grade_status": "Buyer-specific; food or pharma suitability must not be implied",
+          "typical_applications": [
+            "Non-food technical applications where validated"
+          ],
+          "selection_note": "Specify application and purity requirements before offer."
+        }
+      ],
+      "technical_parameters": [
+        {
+          "parameter": "Moisture",
+          "limit_or_value": "Maximum 11.5% by mass",
+          "source": "FSSAI Health Supplements / Nutraceuticals compendium, Schedule IX Psyllium (Isabgol) husk"
+        },
+        {
+          "parameter": "Total ash (dry basis)",
+          "limit_or_value": "Maximum 4.0%",
+          "source": "FSSAI Health Supplements / Nutraceuticals compendium, Schedule IX"
+        },
+        {
+          "parameter": "Acid-insoluble ash (dry basis)",
+          "limit_or_value": "Maximum 0.45%",
+          "source": "FSSAI Health Supplements / Nutraceuticals compendium, Schedule IX"
+        },
+        {
+          "parameter": "Swell volume",
+          "limit_or_value": "Minimum 40 ml/g",
+          "source": "FSSAI Health Supplements / Nutraceuticals compendium, Schedule IX"
+        },
+        {
+          "parameter": "Organic extraneous matter",
+          "limit_or_value": "Maximum 2%",
+          "source": "FSSAI Health Supplements / Nutraceuticals compendium, Schedule IX"
+        },
+        {
+          "parameter": "Colour / appearance",
+          "limit_or_value": "White or translucent; thin boat-shaped structures; 2–3 mm long and 0.5–1 mm wide, per cited FSSAI ingredient description",
+          "source": "FSSAI Health Supplements / Nutraceuticals compendium, Schedule IX"
+        },
+        {
+          "parameter": "Mesh / particle size",
+          "limit_or_value": "Buyer-specific; unverified as a universal limit",
+          "source": "FSSAI Schedule IX does not establish a universal commercial mesh grade"
+        }
+      ],
+      "industry_grade_matrix": [
+        {
+          "industry": "Food / nutraceutical",
+          "recommended_grade": "Food Grade",
+          "basis": "FSSAI Schedule IX Psyllium husk ingredient standard",
+          "mandatory_buyer_confirmation": "Intended food category, swell volume and destination compliance"
+        },
+        {
+          "industry": "Pharmaceutical",
+          "recommended_grade": "Pharmaceutical / Compendial Grade only if monograph-compliant",
+          "basis": "Named pharmacopoeia monograph and edition must be specified",
+          "mandatory_buyer_confirmation": "Exact pharmacopoeia, test methods and release specification"
+        },
+        {
+          "industry": "Refinery / oilfield",
+          "recommended_grade": "No standard refinery grade assigned",
+          "basis": "No reviewed source establishes psyllium husk as a standard refinery input",
+          "mandatory_buyer_confirmation": "Do not offer without validated process-specific customer specification"
+        }
+      ],
+      "standards_and_compliance": [
+        {
+          "standard": "FSSAI Health Supplements / Nutraceuticals Regulations, Schedule IX",
+          "status": "Contains a defined Psyllium (Isabgol) husk ingredient standard; confirm latest amendment"
+        },
+        {
+          "standard": "Pharmacopoeia (IP / USP / Ph. Eur.)",
+          "status": "Unverified until exact monograph and edition are checked"
+        },
+        {
+          "standard": "EU contaminant limits, Regulation (EU) 2023/915",
+          "status": "Destination and food-category specific; check applicable annex entries"
+        }
+      ],
+      "testing_methods": [
+        {
+          "test": "Identity and organoleptic examination",
+          "method": "Macroscopic examination; microscopy for powdered material where applicable, following WHO herbal-material quality-control guidance"
+        },
+        {
+          "test": "Moisture",
+          "method": "Validated loss-on-drying or moisture method specified by applicable regulation / buyer"
+        },
+        {
+          "test": "Total ash and acid-insoluble ash",
+          "method": "Pharmacopoeial or validated gravimetric methods; exact method number unverified here"
+        },
+        {
+          "test": "Swell volume",
+          "method": "FSSAI / buyer-agreed volumetric swelling test"
+        },
+        {
+          "test": "Foreign matter",
+          "method": "Visual and gravimetric examination under a documented sampling procedure"
+        },
+        {
+          "test": "Microbiology / contaminants",
+          "method": "Accredited lab panel based on food category and destination requirements"
+        }
+      ],
+      "packing": [
+        "Food-grade moisture-barrier inner liner in multiwall bags or fibre drums as buyer-approved",
+        "Pack size and liner specification to be agreed in purchase contract",
+        "Protect from moisture, odour and pest contamination"
+      ],
+      "hs_code": {
+        "code": "12119013 is listed for Psyllium Seed, not confirmed for Psyllium Husk; exact husk code unverified",
+        "status": "Do not reuse seed code for husk without written Customs classification confirmation",
+        "source": "Government of India, Ministry of Commerce tariff schedule"
+      },
+      "export_documents_checklist": [
+        "IEC",
+        "Commercial Invoice",
+        "Packing List",
+        "Shipping Bill",
+        "Bill of Lading / Air Waybill",
+        "Certificate of Origin where required",
+        "Batch COA",
+        "FSSAI licence / applicable food compliance documents",
+        "Phytosanitary certificate if required by importing country",
+        "Destination-specific contaminant and microbiological reports",
+        "Importer permits / product registration where applicable"
+      ],
+      "quality_verification_steps": [
+        "Confirm whether buyer requires whole husk, sifted husk or powder",
+        "Approve specification including swell volume and foreign matter",
+        "Verify botanical identity and plant part",
+        "Sample each production lot under documented procedure",
+        "Test moisture, ash, acid-insoluble ash, swell volume and foreign matter",
+        "Test microbiology, pesticide residues and heavy metals as destination requires",
+        "Review COA and label/lot traceability",
+        "Pre-shipment inspection of bags, seals, container and shipping marks"
+      ],
+      "sources": [
+        {
+          "name": "FSSAI, Health Supplements / Nutraceuticals compendium, Schedule IX",
+          "url": "https://mail.fssai.gov.in/upload/uploadfiles/files/Compendium_Nutra_29_09_2021.pdf"
+        },
+        {
+          "name": "Government of India, Ministry of Commerce tariff schedule",
+          "url": "https://www.commerce.gov.in/wp-content/uploads/2025/12/17062025_Final-Updated_2A-India-Goods-Schedule-Cleanv2-uploaded.pdf"
+        },
+        {
+          "name": "WHO, Quality control methods for medicinal plant materials",
+          "url": "https://www.who.int/docs/default-source/medicines/norms-and-standards/guidelines/quality-control/quality-control-methods-for-medicinal-plant-materials.pdf"
+        },
+        {
+          "name": "European Commission, Regulation (EU) 2023/915",
+          "url": "https://eur-lex.europa.eu/eli/reg/2023/915/eng"
+        }
+      ]
+    },
+    {
+      "product_id": "AGR-003",
+      "slug": "senna-leaves-and-pods",
+      "product_name": "Senna Leaves and Pods",
+      "botanical_name": "Senna alexandrina Mill. (synonyms and trade nomenclature may vary; Indian AGMARK rule text uses Cassia angustifolia)",
+      "plant_part": "Dried leaves and mature pods",
+      "product_card": {
+        "title": "Senna Leaves & Pods",
+        "subtitle": "Botanical raw material for regulated herbal applications",
+        "short_description": "Dried senna leaves and pods supplied by separately identified plant part and grade designation.",
+        "image_asset": "images/agriculture/senna-leaves-pods.webp",
+        "image_prompt": "Create an original commercial botanical product photograph showing dried pale green senna leaves and a small group of mature golden-green senna pods arranged neatly side by side, with a few loose leaves. Pure seamless white background, soft even studio lighting, front three-quarter camera angle, realistic dried botanical texture, no packaging, no labels, no logos, no text, no watermark. Center both plant parts for a consistent 400x220 horizontal crop with generous white space."
+      },
+      "grades": [
+        {
+          "grade_name": "AGMARK Senna Leaf Grades",
+          "grade_status": "Official Indian grading framework exists; use exact schedule grade designation and current applicable rule",
+          "typical_applications": [
+            "Herbal raw material supply",
+            "Pharmaceutical raw material supply where accepted by buyer"
+          ],
+          "selection_note": "AGMARK rule schedules include Prime Bold, Prime No. I–IV and T.V. grades. Leaf quality includes colour, leaf size, stalks and other refractions."
+        },
+        {
+          "grade_name": "AGMARK Senna Pod Grades",
+          "grade_status": "Official Indian grading framework exists",
+          "typical_applications": [
+            "Herbal and pharmaceutical raw material supply where accepted by buyer"
+          ],
+          "selection_note": "Schedule IV includes H.P. Pods-A, H.P. Pods-B, No.1, Pods-Skins and Non-specified; assess maturity, colour, stalks/sticks, skins, leaves and other refractions."
+        },
+        {
+          "grade_name": "Extract / Sennoside Standardized Material",
+          "grade_status": "Buyer-specific extract specification; no numeric sennoside value asserted here",
+          "typical_applications": [
+            "Standardized botanical extract manufacturing"
+          ],
+          "selection_note": "Do not apply a leaf/pod AGMARK grade to an extract. Require extract ratio, solvent, assay and residue specifications."
+        }
+      ],
+      "technical_parameters": [
+        {
+          "parameter": "Leaf grade designation",
+          "limit_or_value": "Prime Bold, Prime No. I, Prime No. II, Prime No. III, Prime No. IV and T.V. grades appear in Indian grading schedules",
+          "source": "Senna Leaves and Pods Grading and Marking Rules, 1964, India Code"
+        },
+        {
+          "parameter": "Leaf colour / size / stalk and other refractions",
+          "limit_or_value": "Defined by grade-specific schedule; inspect the exact schedule for the selected grade",
+          "source": "Senna Leaves and Pods Grading and Marking Rules, 1964, India Code"
+        },
+        {
+          "parameter": "Pod grade designation",
+          "limit_or_value": "H.P. Pods-A, H.P. Pods-B, No.1, Pods-Skins and Non-specified",
+          "source": "Senna Leaves and Pods Grading and Marking Rules, 1964, India Code"
+        },
+        {
+          "parameter": "Sennosides assay",
+          "limit_or_value": "Buyer / pharmacopoeia specific; numeric limit unverified in this file",
+          "source": "Exact pharmacopoeial monograph and edition not verified"
+        },
+        {
+          "parameter": "Moisture, total ash, acid-insoluble ash",
+          "limit_or_value": "Unverified as universal limits for all commercial senna leaf and pod grades; specify from applicable monograph / contract",
+          "source": "Exact monograph not verified"
+        },
+        {
+          "parameter": "Pesticide residues, heavy metals, microbiology",
+          "limit_or_value": "Destination and intended-use specific; apply current legal limits",
+          "source": "FSSAI and importing-country rules; EU Regulation 2023/915 for listed contaminants"
+        }
+      ],
+      "industry_grade_matrix": [
+        {
+          "industry": "Herbal raw material",
+          "recommended_grade": "AGMARK leaf or pod grade selected to buyer specification",
+          "basis": "Indian Senna Grading and Marking Rules define leaf and pod grades",
+          "mandatory_buyer_confirmation": "Plant part, grade designation, harvest year and refraction limits"
+        },
+        {
+          "industry": "Pharmaceutical / standardized extract",
+          "recommended_grade": "Buyer-approved pharmacopoeial raw material or standardized extract",
+          "basis": "AGMARK raw botanical grade alone does not establish pharmacopoeial assay compliance",
+          "mandatory_buyer_confirmation": "Sennoside assay, identity, contaminants and named monograph"
+        },
+        {
+          "industry": "Refinery / oilfield",
+          "recommended_grade": "Not applicable / no verified standard application",
+          "basis": "No reviewed authoritative source supports senna as refinery input",
+          "mandatory_buyer_confirmation": "Do not market for this use without specific validated buyer evidence"
+        }
+      ],
+      "standards_and_compliance": [
+        {
+          "standard": "Senna Leaves and Pods Grading and Marking Rules, 1964",
+          "status": "Official Indian grade designation framework; confirm current legal status and amendments"
+        },
+        {
+          "standard": "AGMARK",
+          "status": "Mark may be used only by authorised packer and in accordance with applicable rules"
+        },
+        {
+          "standard": "Pharmacopoeia",
+          "status": "Exact current IP / USP / Ph. Eur. senna monograph and limits unverified; verify before claiming compliance"
+        },
+        {
+          "standard": "EU Regulation (EU) 2023/915",
+          "status": "Check relevant plant toxin and contaminant entries for destination product category"
+        }
+      ],
+      "testing_methods": [
+        {
+          "test": "Botanical identity / plant part",
+          "method": "Macroscopic examination and microscopy; WHO quality-control methods for herbal materials"
+        },
+        {
+          "test": "Foreign matter and refractions",
+          "method": "Grade schedule visual sorting and gravimetric assessment"
+        },
+        {
+          "test": "Sennosides",
+          "method": "Validated HPLC / pharmacopoeial assay method; exact monograph method must be confirmed"
+        },
+        {
+          "test": "Moisture and ash",
+          "method": "Applicable pharmacopoeial or validated gravimetric methods; exact method number unverified"
+        },
+        {
+          "test": "Contaminants",
+          "method": "Accredited lab testing for pesticide residues, heavy metals, microbial limits and mycotoxins as required"
+        }
+      ],
+      "packing": [
+        "Clean, dry, odour-free, moisture-protective bales or buyer-approved food/pharma-grade lined packs",
+        "Separate leaves and pods; never mix plant parts under one lot code",
+        "Mark grade, botanical identity, harvest year, origin, net weight and batch number"
+      ],
+      "hs_code": {
+        "code": "12119022",
+        "status": "Listed as Senna Leaves and Pods in Government of India tariff schedule; confirm current classification for exact processed form",
+        "source": "Government of India, Ministry of Commerce tariff schedule"
+      },
+      "export_documents_checklist": [
+        "IEC",
+        "Commercial Invoice",
+        "Packing List",
+        "Shipping Bill",
+        "Bill of Lading / Air Waybill",
+        "Certificate of Origin where required",
+        "Batch COA",
+        "AGMARK documentation / authorised grading evidence if mark is used",
+        "Phytosanitary certificate where required",
+        "Pesticide residue / heavy metal / microbiology reports as destination requires",
+        "Import permit / CITES check only if applicable to the exact product and destination"
+      ],
+      "quality_verification_steps": [
+        "Confirm leaf or pod separately and agree exact AGMARK grade",
+        "Verify botanical identity, harvest year, origin and supplier traceability",
+        "Inspect colour, maturity, characteristic odour, mould, insects and foreign matter",
+        "Test grade-specific refractions and size/colour characteristics",
+        "Test sennosides if required by buyer or pharmacopoeia",
+        "Test moisture, ash, pesticide residues, heavy metals and microbiology to agreed specification",
+        "Issue batch-specific COA and review all results",
+        "Pre-shipment inspection, bale/pack integrity and container hygiene check"
+      ],
+      "sources": [
+        {
+          "name": "India Code, Senna Leaves and Pods Grading and Marking Rules, 1964 (official PDF)",
+          "url": "https://upload.indiacode.nic.in/showfile?actid=AC_CEN_23_31_00011_193701_1535099362507&filename=senna_leaves_and_pods_grading_and_marking_rules%2C_1964.pdf&type=rule"
+        },
+        {
+          "name": "Government of India, Ministry of Commerce tariff schedule",
+          "url": "https://www.commerce.gov.in/wp-content/uploads/2025/12/17062025_Final-Updated_2A-India-Goods-Schedule-Cleanv2-uploaded.pdf"
+        },
+        {
+          "name": "WHO, Quality control methods for medicinal plant materials",
+          "url": "https://www.who.int/docs/default-source/medicines/norms-and-standards/guidelines/quality-control/quality-control-methods-for-medicinal-plant-materials.pdf"
+        },
+        {
+          "name": "European Commission, Regulation (EU) 2023/915",
+          "url": "https://eur-lex.europa.eu/eli/reg/2023/915/eng"
+        }
+      ]
+    },
+    {
+      "product_id": "AGR-004",
+      "slug": "ashwagandha-root",
+      "product_name": "Ashwagandha Root",
+      "botanical_name": "Withania somnifera (L.) Dunal",
+      "plant_part": "Dried mature root; root is the recognised ASU drug part in the cited Ministry of AYUSH advisory",
+      "product_card": {
+        "title": "Ashwagandha Root",
+        "subtitle": "Botanical root for traditional herbal supply chains",
+        "short_description": "Dried, botanically identified Ashwagandha root supplied whole, cut or powdered according to buyer specification.",
+        "image_asset": "images/agriculture/ashwagandha-root.webp",
+        "image_prompt": "Create an original commercial botanical product photograph of clean dried Ashwagandha roots, several whole beige-brown branching roots with a few cut root pieces showing the interior, arranged neatly. Pure seamless white background, soft even studio lighting, front three-quarter camera angle, realistic dry root texture, no packaging, labels, logos, text or watermark. Center the roots for a consistent 400x220 horizontal crop with generous white space."
+      },
+      "grades": [
+        {
+          "grade_name": "Whole / Cut Root Grade",
+          "grade_status": "Commercial form; quality grade must be defined by buyer specification",
+          "typical_applications": [
+            "Herbal raw material trade",
+            "Traditional medicine raw material supply where legally accepted"
+          ],
+          "selection_note": "Specify root-only material, size, foreign matter, moisture and identity."
+        },
+        {
+          "grade_name": "Root Powder Grade",
+          "grade_status": "Commercial form; numeric limits unverified as a universal grade",
+          "typical_applications": [
+            "Herbal formulations",
+            "Food supplement ingredient where legally permitted"
+          ],
+          "selection_note": "Require microscopy / identity, withanolide assay if specified, microbial and contaminant tests."
+        },
+        {
+          "grade_name": "Standardized Root Extract",
+          "grade_status": "Extract specification must be separately defined; do not infer extract strength from raw root",
+          "typical_applications": [
+            "Formulation ingredient for buyer-authorised products"
+          ],
+          "selection_note": "Specify extract ratio, solvent, carrier, withanolide assay, residual solvents and adulterant controls."
+        }
+      ],
+      "technical_parameters": [
+        {
+          "parameter": "Botanical identity",
+          "limit_or_value": "Withania somnifera (L.) Dunal",
+          "source": "Ministry of AYUSH advisory on Ashwagandha; e-Charak knowledge resources"
+        },
+        {
+          "parameter": "Permitted / recognised plant part for cited ASU context",
+          "limit_or_value": "Dried mature roots; Ministry of AYUSH advisory cautions against using leaves as ASU drug / food supplement in the name of ASU drugs",
+          "source": "Ministry of AYUSH Advisory on Ashwagandha"
+        },
+        {
+          "parameter": "Moisture",
+          "limit_or_value": "Unverified universal numeric limit; set against applicable pharmacopoeia / buyer specification",
+          "source": "Exact current monograph not verified"
+        },
+        {
+          "parameter": "Total ash / acid-insoluble ash",
+          "limit_or_value": "Unverified universal numeric limits; set against applicable pharmacopoeia / buyer specification",
+          "source": "Exact current monograph not verified"
+        },
+        {
+          "parameter": "Withanolides assay",
+          "limit_or_value": "Buyer-specific; numeric assay not asserted for raw root",
+          "source": "Exact current monograph / extract specification not verified"
+        },
+        {
+          "parameter": "Mesh size",
+          "limit_or_value": "Powder mesh is buyer-specific; unverified as a universal limit",
+          "source": "Buyer specification required"
+        }
+      ],
+      "industry_grade_matrix": [
+        {
+          "industry": "Traditional herbal / ASU raw material",
+          "recommended_grade": "Whole or cut dried mature root",
+          "basis": "Ministry of AYUSH identifies root as the recognised plant part in ASU systems",
+          "mandatory_buyer_confirmation": "Applicable ASU drug rules, root identity and pharmacopoeial specification"
+        },
+        {
+          "industry": "Nutraceutical / food supplement",
+          "recommended_grade": "Root powder or approved root extract only if legally compliant for intended category",
+          "basis": "Ministry advisory distinguishes recognised root use and cautions against leaf use under ASU drug / supplement claims",
+          "mandatory_buyer_confirmation": "FSSAI category, ingredient permission, claims and destination-country law"
+        },
+        {
+          "industry": "Cosmetics",
+          "recommended_grade": "Cosmetic-grade root extract / powder under buyer specification",
+          "basis": "No universal cosmetic grade standard verified in this research",
+          "mandatory_buyer_confirmation": "INCI / safety dossier, contaminants and formulation compatibility"
+        },
+        {
+          "industry": "Refinery / oilfield",
+          "recommended_grade": "No verified standard application",
+          "basis": "No reviewed authoritative source supports Ashwagandha root as refinery input",
+          "mandatory_buyer_confirmation": "Do not market for this use without validated buyer evidence"
+        }
+      ],
+      "standards_and_compliance": [
+        {
+          "standard": "Ayurvedic Pharmacopoeia of India",
+          "status": "Ministry advisory cites API Part I, Volume I for dried mature roots; exact current numerical monograph limits must be checked"
+        },
+        {
+          "standard": "Ministry of AYUSH Ashwagandha advisory",
+          "status": "Official advisory; do not substitute leaves for root in ASU drug context"
+        },
+        {
+          "standard": "FSSAI",
+          "status": "Check product category and latest ingredient / nutraceutical rules before food-supplement sale"
+        },
+        {
+          "standard": "EU Regulation (EU) 2023/915",
+          "status": "Check applicable contaminant limits for the exact food product and destination"
+        }
+      ],
+      "testing_methods": [
+        {
+          "test": "Botanical identity",
+          "method": "Macroscopic and microscopic identification; WHO herbal-material quality-control guidance"
+        },
+        {
+          "test": "Foreign matter",
+          "method": "Visual sorting and gravimetric determination"
+        },
+        {
+          "test": "Moisture and ash",
+          "method": "Applicable pharmacopoeial / validated gravimetric methods; exact monograph method to be verified"
+        },
+        {
+          "test": "Withanolides",
+          "method": "Validated HPLC / HPTLC method where assay is part of buyer specification; exact method to be agreed"
+        },
+        {
+          "test": "Pesticide residues, heavy metals, microbes and mycotoxins",
+          "method": "Accredited laboratory methods against destination-specific limits"
+        }
+      ],
+      "packing": [
+        "Whole/cut root: clean moisture-barrier lined bags or cartons as agreed",
+        "Powder/extract: sealed food/pharma-compatible inner liner and protective outer pack",
+        "Label plant part, botanical name, origin, lot, harvest/packing date and storage conditions"
+      ],
+      "hs_code": {
+        "code": "unverified",
+        "status": "Classification depends on whether root is raw, cut, powdered, extracted or formulated; obtain written Customs classification",
+        "source": "Exact current Indian tariff line not verified"
+      },
+      "export_documents_checklist": [
+        "IEC",
+        "Commercial Invoice",
+        "Packing List",
+        "Shipping Bill",
+        "Bill of Lading / Air Waybill",
+        "Certificate of Origin where required",
+        "Batch COA and botanical identity report",
+        "Phytosanitary certificate where required",
+        "FSSAI / AYUSH / manufacturing documents as applicable to the product and exporter role",
+        "Pesticide, heavy metal and microbiology reports as required",
+        "Destination-country import permits and ingredient compliance evidence"
+      ],
+      "quality_verification_steps": [
+        "Verify root-only material and botanical identity",
+        "Check supplier traceability, cultivation/collection origin and harvest records",
+        "Inspect root morphology, colour, odour, mould, insects and foreign matter",
+        "Test moisture, ash and extractive / assay parameters required by named monograph or buyer",
+        "For extracts, verify extract ratio, solvent, withanolides assay and residual solvents",
+        "Test pesticides, heavy metals, microbiology and mycotoxins according to destination",
+        "Review batch COA and regulatory status of intended use",
+        "Pre-shipment inspection and sealed reference sample retention"
+      ],
+      "sources": [
+        {
+          "name": "Ministry of AYUSH, Advisory on Ashwagandha",
+          "url": "https://ayush.gov.in/resources/pdf/quality_standards/advisory-on-aswagandha.pdf"
+        },
+        {
+          "name": "Ministry of AYUSH, e-Charak Knowledge Resources",
+          "url": "https://echarak.ayush.gov.in/knowledge_resources"
+        },
+        {
+          "name": "WHO, Quality control methods for medicinal plant materials",
+          "url": "https://www.who.int/docs/default-source/medicines/norms-and-standards/guidelines/quality-control/quality-control-methods-for-medicinal-plant-materials.pdf"
+        },
+        {
+          "name": "FSSAI, Product Standards",
+          "url": "https://fssai.gov.in/standards/product-standards"
+        },
+        {
+          "name": "European Commission, Regulation (EU) 2023/915",
+          "url": "https://eur-lex.europa.eu/eli/reg/2023/915/eng"
+        }
+      ]
+    },
+    {
+      "product_id": "AGR-005",
+      "slug": "moringa-leaf-powder",
+      "product_name": "Moringa Leaf Powder",
+      "botanical_name": "Moringa oleifera Lam.",
+      "plant_part": "Leaves",
+      "product_card": {
+        "title": "Moringa Leaf Powder",
+        "subtitle": "Leaf powder for food and personal-care formulations",
+        "short_description": "Finely milled dried Moringa leaves supplied to customer-defined food, nutraceutical or cosmetic specifications.",
+        "image_asset": "images/agriculture/moringa-leaf-powder.webp",
+        "image_prompt": "Create an original commercial product photograph of vibrant natural green moringa leaf powder in a neat small mound, a clear glass bowl and a few fresh moringa leaflets arranged beside it. Pure seamless white background, soft even studio lighting, front three-quarter camera angle, realistic fine powder texture and natural leaf detail, no packaging, labels, logos, text or watermark. Center the product for a consistent 400x220 horizontal crop with generous white space."
+      },
+      "grades": [
+        {
+          "grade_name": "Food Grade",
+          "grade_status": "Buyer and destination-specific; no universal numeric grade standard verified here",
+          "typical_applications": [
+            "Food ingredient blends",
+            "Smoothies and beverage mixes",
+            "Bakery and seasoning formulations"
+          ],
+          "selection_note": "Confirm food ingredient permission and contaminant limits in each target market."
+        },
+        {
+          "grade_name": "Nutraceutical Grade",
+          "grade_status": "Buyer-specific; no universal grade or assay threshold asserted",
+          "typical_applications": [
+            "Dietary supplement formulations where permitted"
+          ],
+          "selection_note": "Require identity, microbial, pesticide and heavy-metal testing; claims and ingredient status must be reviewed."
+        },
+        {
+          "grade_name": "Cosmetic Grade",
+          "grade_status": "Buyer-specific cosmetic raw material specification",
+          "typical_applications": [
+            "Cosmetic and personal-care formulations"
+          ],
+          "selection_note": "Require cosmetic safety, microbiology, contaminant and formulation compatibility evidence."
+        }
+      ],
+      "technical_parameters": [
+        {
+          "parameter": "Botanical identity",
+          "limit_or_value": "Moringa oleifera Lam.",
+          "source": "Botanical nomenclature; verify supplier identity by authenticated reference / lab"
+        },
+        {
+          "parameter": "Moisture",
+          "limit_or_value": "unverified; set numeric limit in buyer specification and validate by COA",
+          "source": "No authoritative product-specific numeric limit verified in this research"
+        },
+        {
+          "parameter": "Total ash / acid-insoluble ash",
+          "limit_or_value": "unverified; buyer / applicable standard required",
+          "source": "No authoritative product-specific numeric limit verified in this research"
+        },
+        {
+          "parameter": "Mesh size",
+          "limit_or_value": "Buyer-specific; unverified as a universal limit",
+          "source": "Buyer specification required"
+        },
+        {
+          "parameter": "Microbial limits",
+          "limit_or_value": "Destination and intended food / supplement category specific",
+          "source": "FSSAI regulations and importing-country requirements"
+        },
+        {
+          "parameter": "Heavy metals / pesticide residues",
+          "limit_or_value": "Destination and product-category specific; no single universal limit asserted",
+          "source": "FSSAI contaminants regulations and EU Regulation (EU) 2023/915 where applicable"
+        }
+      ],
+      "industry_grade_matrix": [
+        {
+          "industry": "Food processing",
+          "recommended_grade": "Food Grade",
+          "basis": "Must comply with applicable food ingredient and contaminant rules",
+          "mandatory_buyer_confirmation": "Food category, microbiological and pesticide specifications"
+        },
+        {
+          "industry": "Nutraceutical",
+          "recommended_grade": "Nutraceutical Grade",
+          "basis": "Category and ingredient permissions depend on jurisdiction",
+          "mandatory_buyer_confirmation": "FSSAI / destination ingredient status, assay and claims"
+        },
+        {
+          "industry": "Cosmetics",
+          "recommended_grade": "Cosmetic Grade",
+          "basis": "Customer cosmetic raw-material specification; no universal grade verified",
+          "mandatory_buyer_confirmation": "Safety dossier, microbiology and formulation compatibility"
+        },
+        {
+          "industry": "Refinery / oilfield",
+          "recommended_grade": "No verified standard application",
+          "basis": "No reviewed authoritative source supports moringa leaf powder as a refinery input",
+          "mandatory_buyer_confirmation": "Do not market for this use without validated buyer evidence"
+        }
+      ],
+      "standards_and_compliance": [
+        {
+          "standard": "FSSAI Product Standards and Contaminants Regulations",
+          "status": "Check current product category, ingredient permission and applicable contaminant limits"
+        },
+        {
+          "standard": "EU Regulation (EU) 2023/915",
+          "status": "Check listed contaminants applicable to the specific product category"
+        },
+        {
+          "standard": "WHO herbal-material quality control guidance",
+          "status": "Useful test framework for identity, foreign matter, moisture, ash and contamination; not a product-specific commercial grade"
+        }
+      ],
+      "testing_methods": [
+        {
+          "test": "Identity",
+          "method": "Macroscopic / microscopic botanical identification; DNA identity only where agreed and validated"
+        },
+        {
+          "test": "Moisture",
+          "method": "Validated loss-on-drying or moisture analyser method"
+        },
+        {
+          "test": "Ash / acid-insoluble ash",
+          "method": "Validated gravimetric method"
+        },
+        {
+          "test": "Mesh / particle size",
+          "method": "Sieve analysis with declared sieve standard and test conditions"
+        },
+        {
+          "test": "Microbiology",
+          "method": "Accredited laboratory testing for buyer- and destination-specified organisms"
+        },
+        {
+          "test": "Pesticides / heavy metals / mycotoxins",
+          "method": "Accredited laboratory methods and destination-specific maximum limits"
+        }
+      ],
+      "packing": [
+        "Food-grade moisture-barrier inner liner with sealed outer bag or carton",
+        "Use opaque or light-protective pack if required by stability data and buyer",
+        "Pack size, mesh and storage life to be confirmed by validated shelf-life data"
+      ],
+      "hs_code": {
+        "code": "unverified",
+        "status": "Depends on whether leaves are dried, powdered, extract or prepared food; verify current ITC(HS) classification with Customs broker / DGFT",
+        "source": "Exact current tariff line not verified"
+      },
+      "export_documents_checklist": [
+        "IEC",
+        "Commercial Invoice",
+        "Packing List",
+        "Shipping Bill",
+        "Bill of Lading / Air Waybill",
+        "Certificate of Origin where required",
+        "Batch COA",
+        "Botanical identity report",
+        "FSSAI documents where applicable",
+        "Phytosanitary certificate if required",
+        "Pesticide / heavy metal / microbiology reports required by destination",
+        "Organic certificate only if certified under applicable scheme"
+      ],
+      "quality_verification_steps": [
+        "Confirm leaf-only raw material and botanical identity",
+        "Check origin, harvest and drying records",
+        "Inspect colour, odour, mould, insects and foreign matter",
+        "Test moisture, ash, particle size and microbiology against signed specification",
+        "Test pesticide residues, heavy metals and mycotoxins where applicable",
+        "Check colour and sensory consistency against approved reference sample",
+        "Review COA and destination regulatory compliance",
+        "Pre-shipment inspection and package integrity check"
+      ],
+      "sources": [
+        {
+          "name": "FSSAI, Product Standards",
+          "url": "https://fssai.gov.in/standards/product-standards"
+        },
+        {
+          "name": "WHO, Quality control methods for medicinal plant materials",
+          "url": "https://www.who.int/docs/default-source/medicines/norms-and-standards/guidelines/quality-control/quality-control-methods-for-medicinal-plant-materials.pdf"
+        },
+        {
+          "name": "European Commission, Regulation (EU) 2023/915",
+          "url": "https://eur-lex.europa.eu/eli/reg/2023/915/eng"
+        }
+      ]
+    },
+    {
+      "product_id": "AGR-006",
+      "slug": "fenugreek-seeds",
+      "product_name": "Fenugreek Seeds",
+      "botanical_name": "Trigonella foenum-graecum L.",
+      "plant_part": "Dried mature seeds",
+      "product_card": {
+        "title": "Fenugreek Seeds",
+        "subtitle": "Whole spice and ingredient-grade seed",
+        "short_description": "Cleaned, mature fenugreek seeds for spice, food processing and buyer-approved extraction uses.",
+        "image_asset": "images/agriculture/fenugreek-seeds.webp",
+        "image_prompt": "Create an original commercial product photograph of golden-brown whole fenugreek seeds in a small neat mound with a clear glass bowl and a few individual seeds scattered naturally nearby. Pure seamless white background, soft even studio lighting, front three-quarter camera angle, realistic seed texture, no packaging, labels, logos, text or watermark. Center the product for a consistent 400x220 horizontal crop with generous white space."
+      },
+      "grades": [
+        {
+          "grade_name": "AGMARK Special / Standard",
+          "grade_status": "Indian grading schedule defines Special and Standard quality for whole fenugreek",
+          "typical_applications": [
+            "Premium spice trade",
+            "Food processing",
+            "Retail and ingredient supply"
+          ],
+          "selection_note": "Use the grade table and its exact limits; verify current applicable rules before applying AGMARK mark."
+        },
+        {
+          "grade_name": "Food Grade Whole Seed",
+          "grade_status": "FSSAI food standard exists; customer may add stricter export specification",
+          "typical_applications": [
+            "Spice blends",
+            "Food ingredients",
+            "Seasoning and extraction feedstock"
+          ],
+          "selection_note": "Confirm foreign matter, moisture, ash, damaged seeds, soluble extract and destination residue limits."
+        },
+        {
+          "grade_name": "Ground / Powder Grade",
+          "grade_status": "Separate powder standard exists; not interchangeable with whole seed grade",
+          "typical_applications": [
+            "Spice powder",
+            "Food processing"
+          ],
+          "selection_note": "Particle size and microbial controls must be stated separately."
+        }
+      ],
+      "technical_parameters": [
+        {
+          "parameter": "Moisture",
+          "limit_or_value": "Maximum 10.0% by weight in cited FSSAI standard; AGMARK schedule lists Special 9.0% and Standard 10.0%",
+          "source": "FSSAI Food Products Standards compendium; Spices Grading and Marking Rules, 2012"
+        },
+        {
+          "parameter": "Total ash (dry basis)",
+          "limit_or_value": "Maximum 5.0% in cited FSSAI standard; AGMARK schedule lists Special 4.0% and Standard 5.0%",
+          "source": "FSSAI Food Products Standards compendium; Spices Grading and Marking Rules, 2012"
+        },
+        {
+          "parameter": "Acid-insoluble ash (dry basis)",
+          "limit_or_value": "Maximum 1.5% in cited FSSAI standard; AGMARK schedule lists Special 0.5% and Standard 1.5%",
+          "source": "FSSAI Food Products Standards compendium; Spices Grading and Marking Rules, 2012"
+        },
+        {
+          "parameter": "Cold water soluble extract (dry basis)",
+          "limit_or_value": "Minimum 30.0% in cited FSSAI standard; AGMARK schedule lists Special 35.0% and Standard 30.0%",
+          "source": "FSSAI Food Products Standards compendium; Spices Grading and Marking Rules, 2012"
+        },
+        {
+          "parameter": "Extraneous matter",
+          "limit_or_value": "AGMARK schedule: Special maximum 0.5%; Standard maximum 1.0% organic extraneous matter. FSSAI general standard has its own limits; apply exact notified text.",
+          "source": "Spices Grading and Marking Rules, 2012"
+        },
+        {
+          "parameter": "Mesh / particle size",
+          "limit_or_value": "Not applicable to whole seeds; powder particle size is buyer-specific",
+          "source": "Spices grading schedule note; buyer specification"
+        }
+      ],
+      "industry_grade_matrix": [
+        {
+          "industry": "Food / spice processing",
+          "recommended_grade": "AGMARK Special or Standard / FSSAI-compliant whole seed",
+          "basis": "Indian FSSAI and AGMARK standards provide measurable quality parameters",
+          "mandatory_buyer_confirmation": "Grade, cleaning level, residue limits and destination specification"
+        },
+        {
+          "industry": "Extract / oleoresin / ingredient processing",
+          "recommended_grade": "Selected clean seed lot with buyer-specific extractive specification",
+          "basis": "Cold-water soluble extract and other quality parameters can support raw-material selection; no universal extraction grade asserted",
+          "mandatory_buyer_confirmation": "Extraction yield, active constituent assay and process trial"
+        },
+        {
+          "industry": "Pharmaceutical / nutraceutical",
+          "recommended_grade": "Buyer-specific food / botanical raw material specification",
+          "basis": "Whole spice grade alone does not establish pharmacopoeial or nutraceutical compliance",
+          "mandatory_buyer_confirmation": "Exact ingredient status, assay and contaminant requirements"
+        },
+        {
+          "industry": "Refinery / oilfield",
+          "recommended_grade": "No verified standard application",
+          "basis": "No reviewed authoritative source supports fenugreek seed as refinery input",
+          "mandatory_buyer_confirmation": "Do not market for this use without validated buyer evidence"
+        }
+      ],
+      "standards_and_compliance": [
+        {
+          "standard": "FSSAI Food Products Standards and Food Additives Regulations",
+          "status": "Whole fenugreek and powder standards are included in cited compendium; confirm latest amendments"
+        },
+        {
+          "standard": "Spices Grading and Marking Rules, 2012",
+          "status": "Contains AGMARK grade designations and quality definitions for whole fenugreek"
+        },
+        {
+          "standard": "EU Regulation (EU) 2023/915",
+          "status": "Check applicable contaminant maximum levels for the product category"
+        }
+      ],
+      "testing_methods": [
+        {
+          "test": "Moisture",
+          "method": "FSSAI / applicable validated oven method; use specified conditions in the current regulation"
+        },
+        {
+          "test": "Total ash / acid-insoluble ash",
+          "method": "Gravimetric methods under applicable FSSAI / AGMARK specification"
+        },
+        {
+          "test": "Cold water soluble extract",
+          "method": "Applicable FSSAI / AGMARK method; confirm exact method reference from current standard"
+        },
+        {
+          "test": "Extraneous matter / damaged seeds",
+          "method": "Manual sorting and gravimetric determination on representative sample"
+        },
+        {
+          "test": "Pesticide residues, aflatoxins and microbiology",
+          "method": "Accredited laboratory testing against current destination limits"
+        }
+      ],
+      "packing": [
+        "Clean, dry, food-grade PP woven or multiwall bags with suitable inner liner",
+        "Buyer-approved retail or bulk pack sizes; protect against moisture, insects and odour",
+        "Clearly mark crop year, origin, grade, lot and net weight"
+      ],
+      "hs_code": {
+        "code": "unverified",
+        "status": "Confirm exact current ITC(HS) line for whole fenugreek seed versus crushed / ground product before export declaration",
+        "source": "Exact current tariff line not verified"
+      },
+      "export_documents_checklist": [
+        "IEC",
+        "Commercial Invoice",
+        "Packing List",
+        "Shipping Bill",
+        "Bill of Lading / Air Waybill",
+        "Certificate of Origin where required",
+        "Batch COA",
+        "FSSAI licence / food compliance documents where applicable",
+        "Phytosanitary certificate if required by destination",
+        "Pesticide residue / aflatoxin / microbiology reports where required",
+        "Spices Board registration or other exporter registration if applicable to product and exporter"
+      ],
+      "quality_verification_steps": [
+        "Confirm whole seed versus powder and grade designation",
+        "Check botanical identity, crop year and origin",
+        "Inspect seed colour, aroma, mould, insects and foreign matter",
+        "Test moisture, ash, acid-insoluble ash and cold-water soluble extract",
+        "Test pesticide residues, aflatoxins and microbiology per destination requirements",
+        "Compare grade against current AGMARK/FSSAI schedule",
+        "Issue lot-specific COA and approve reference sample",
+        "Pre-shipment inspection, bag stitching, container cleanliness and seal verification"
+      ],
+      "sources": [
+        {
+          "name": "FSSAI, Food Products Standards and Food Additives Regulations compendium",
+          "url": "https://www.fssai.gov.in/upload/uploadfiles/files/compendium.pdf"
+        },
+        {
+          "name": "Government of India, Spices Grading and Marking Rules, 2012",
+          "url": "https://upload.indiacode.nic.in/showfile?actid=AC_CEN_23_31_00011_193701_1535099362507&filename=spices_grading_and_marking_rules%2C_2012.pdf&type=rule"
+        },
+        {
+          "name": "European Commission, Regulation (EU) 2023/915",
+          "url": "https://eur-lex.europa.eu/eli/reg/2023/915/eng"
+        }
+      ]
+    },
+    {
+      "product_id": "AGR-007",
+      "slug": "aloe-vera-gel-powder-200-1",
+      "product_name": "Aloe Vera Gel Powder 200:1",
+      "botanical_name": "Aloe vera (L.) Burm.f. (syn. Aloe barbadensis Mill.)",
+      "plant_part": "Inner leaf gel; exact raw material definition and processing must be verified with manufacturer",
+      "product_card": {
+        "title": "Aloe Vera Gel Powder 200:1",
+        "subtitle": "Concentrated aloe inner-gel powder",
+        "short_description": "Concentrated aloe gel powder offered only with documented starting material, extraction ratio, carrier and assay details.",
+        "image_asset": "images/agriculture/aloe-vera-gel-powder-200-1.webp",
+        "image_prompt": "Create an original commercial product photograph of fine pale cream to light beige aloe vera inner-gel powder in a small neat mound, with one fresh aloe leaf segment showing clear inner gel placed beside a clear glass bowl. Pure seamless white background, soft even studio lighting, front three-quarter camera angle, realistic fine powder and translucent gel detail, no packaging, labels, logos, text or watermark. Center the product for a consistent 400x220 horizontal crop with generous white space."
+      },
+      "grades": [
+        {
+          "grade_name": "Cosmetic Grade",
+          "grade_status": "Buyer-specific cosmetic raw-material specification; no universal 200:1 grade standard verified",
+          "typical_applications": [
+            "Skin-care formulations",
+            "Personal-care products"
+          ],
+          "selection_note": "Require INCI identity, safety documentation, microbiology, residual solvents and stability data."
+        },
+        {
+          "grade_name": "Food Grade",
+          "grade_status": "Only where the ingredient, processing method and intended food category are permitted in the destination market",
+          "typical_applications": [
+            "Food / beverage formulations where legally permitted"
+          ],
+          "selection_note": "Require food regulatory status, aloin/anthraquinone control as relevant to the material, contaminants and processing details."
+        },
+        {
+          "grade_name": "Pharmaceutical / Compendial Grade",
+          "grade_status": "Unverified as a generic grade; must meet a named pharmacopoeial monograph and buyer specification",
+          "typical_applications": [
+            "Pharmaceutical formulations where approved"
+          ],
+          "selection_note": "Do not claim pharmaceutical grade solely from a 200:1 ratio."
+        }
+      ],
+      "technical_parameters": [
+        {
+          "parameter": "Concentration ratio",
+          "limit_or_value": "200:1 is a supplier / product claim; verify calculation basis, native extract ratio and mass balance. Not independently verified as a universal standard.",
+          "source": "Manufacturer process records and batch COA required"
+        },
+        {
+          "parameter": "Aloin / hydroxyanthracene derivatives",
+          "limit_or_value": "Unverified for this product; set specification based on inner-gel definition, intended use and destination law",
+          "source": "Product-specific regulatory / pharmacopoeial specification not verified"
+        },
+        {
+          "parameter": "Moisture / loss on drying",
+          "limit_or_value": "unverified; buyer specification and stability data required",
+          "source": "No universal 200:1 powder limit verified"
+        },
+        {
+          "parameter": "Total ash / acid-insoluble ash",
+          "limit_or_value": "unverified; buyer specification required",
+          "source": "No universal 200:1 powder limit verified"
+        },
+        {
+          "parameter": "Carrier / excipients",
+          "limit_or_value": "Must be disclosed; unverified until manufacturer declaration and COA are obtained",
+          "source": "Manufacturer formulation and batch records required"
+        },
+        {
+          "parameter": "Mesh / particle size",
+          "limit_or_value": "Buyer-specific; unverified as a universal limit",
+          "source": "Buyer specification required"
+        },
+        {
+          "parameter": "Microbiology / heavy metals",
+          "limit_or_value": "Destination and intended-use specific",
+          "source": "FSSAI and importing-country rules; EU Regulation (EU) 2023/915 where applicable"
+        }
+      ],
+      "industry_grade_matrix": [
+        {
+          "industry": "Cosmetics / personal care",
+          "recommended_grade": "Cosmetic Grade",
+          "basis": "Customer cosmetic raw-material specification; no universal grade verified",
+          "mandatory_buyer_confirmation": "INCI identity, inner-leaf / whole-leaf status, aloin control, microbial and stability data"
+        },
+        {
+          "industry": "Food / beverage",
+          "recommended_grade": "Food Grade only if legally permitted",
+          "basis": "Food ingredient status depends on exact aloe preparation and jurisdiction",
+          "mandatory_buyer_confirmation": "Destination regulatory status, ingredient type, aloin / hydroxyanthracene profile and food safety dossier"
+        },
+        {
+          "industry": "Pharmaceutical",
+          "recommended_grade": "Named compendial grade only after monograph verification",
+          "basis": "200:1 ratio alone does not establish pharmacopoeial compliance",
+          "mandatory_buyer_confirmation": "Named pharmacopoeia, assay, residual solvent and contaminant limits"
+        },
+        {
+          "industry": "Refinery / oilfield",
+          "recommended_grade": "No verified standard application",
+          "basis": "No reviewed authoritative source supports aloe gel powder as refinery input",
+          "mandatory_buyer_confirmation": "Do not market for this use without validated buyer evidence"
+        }
+      ],
+      "standards_and_compliance": [
+        {
+          "standard": "FSSAI",
+          "status": "Confirm exact aloe ingredient / food category and current regulatory permissions before food sale"
+        },
+        {
+          "standard": "EU Regulation (EU) 2023/915",
+          "status": "Check relevant contaminant entries; this regulation is not a complete aloe product specification"
+        },
+        {
+          "standard": "Pharmacopoeia",
+          "status": "Exact applicable aloe monograph and product identity unverified; do not claim IP / USP / Ph. Eur. compliance without testing"
+        },
+        {
+          "standard": "Cosmetic ingredient compliance",
+          "status": "Destination-specific; INCI identity, safety and restricted-substance requirements must be checked"
+        }
+      ],
+      "testing_methods": [
+        {
+          "test": "Botanical / plant-part identity",
+          "method": "Supplier traceability plus validated botanical identity method; confirm inner-leaf gel versus whole-leaf material"
+        },
+        {
+          "test": "Aloin / anthraquinones",
+          "method": "Validated HPLC method under buyer / destination specification; exact method and limit to be verified"
+        },
+        {
+          "test": "Moisture / ash",
+          "method": "Validated gravimetric methods against signed specification"
+        },
+        {
+          "test": "Concentration ratio / solids",
+          "method": "Review manufacturing mass balance, native extract ratio, carrier percentage and batch records"
+        },
+        {
+          "test": "Residual solvents",
+          "method": "Validated GC method where solvent extraction is used or required"
+        },
+        {
+          "test": "Microbiology / heavy metals",
+          "method": "Accredited laboratory testing against intended-use and destination limits"
+        }
+      ],
+      "packing": [
+        "Sealed moisture-barrier, light-protective inner liner inside a suitable outer drum or carton",
+        "Declare carrier, extract ratio basis, plant part, batch number and storage conditions",
+        "Shelf life must be supported by stability data; do not invent expiry period"
+      ],
+      "hs_code": {
+        "code": "unverified",
+        "status": "Classification depends on whether the item is a plant extract, prepared food ingredient or other product; obtain written Customs classification",
+        "source": "Exact current tariff line not verified"
+      },
+      "export_documents_checklist": [
+        "IEC",
+        "Commercial Invoice",
+        "Packing List",
+        "Shipping Bill",
+        "Bill of Lading / Air Waybill",
+        "Certificate of Origin where required",
+        "Batch COA and manufacturer specification",
+        "Full ingredient / carrier declaration",
+        "Botanical identity and plant-part declaration",
+        "Residual solvent / aloin / microbiology / heavy-metal reports as required",
+        "FSSAI or cosmetic / pharmaceutical compliance documents as applicable",
+        "Destination-specific import permits and product registrations"
+      ],
+      "quality_verification_steps": [
+        "Obtain manufacturer process flow and confirm inner-leaf gel versus whole-leaf source",
+        "Verify what 200:1 means and obtain native extract ratio and mass-balance evidence",
+        "Obtain full carrier / excipient declaration",
+        "Approve buyer specification including aloin / anthraquinones and intended use",
+        "Test identity, moisture, ash, assay markers, residual solvents and microbiology as relevant",
+        "Verify heavy metals and pesticide residues against destination limits",
+        "Review batch COA and stability / shelf-life evidence",
+        "Pre-shipment inspection of sealed drums, labels, batch traceability and container conditions"
+      ],
+      "sources": [
+        {
+          "name": "FSSAI, Product Standards",
+          "url": "https://fssai.gov.in/standards/product-standards"
+        },
+        {
+          "name": "European Commission, Regulation (EU) 2023/915",
+          "url": "https://eur-lex.europa.eu/eli/reg/2023/915/eng"
+        },
+        {
+          "name": "WHO, Quality control methods for medicinal plant materials",
+          "url": "https://www.who.int/docs/default-source/medicines/norms-and-standards/guidelines/quality-control/quality-control-methods-for-medicinal-plant-materials.pdf"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "FSSAI Product Standards portal",
+      "url": "https://fssai.gov.in/standards/product-standards"
+    },
+    {
+      "name": "APEDA Guar Gum overview",
+      "url": "https://apeda.gov.in/GuarGum"
+    },
+    {
+      "name": "APEDA Guar Gum Product Profile",
+      "url": "https://apeda.gov.in/sites/default/files/2024-04/Guargum_final_Profile.pdf"
+    },
+    {
+      "name": "India Code, Senna Leaves and Pods Grading and Marking Rules, 1964",
+      "url": "https://upload.indiacode.nic.in/showfile?actid=AC_CEN_23_31_00011_193701_1535099362507&filename=senna_leaves_and_pods_grading_and_marking_rules%2C_1964.pdf&type=rule"
+    },
+    {
+      "name": "Government of India, Spices Grading and Marking Rules, 2012",
+      "url": "https://upload.indiacode.nic.in/showfile?actid=AC_CEN_23_31_00011_193701_1535099362507&filename=spices_grading_and_marking_rules%2C_2012.pdf&type=rule"
+    },
+    {
+      "name": "Ministry of AYUSH, Advisory on Ashwagandha",
+      "url": "https://ayush.gov.in/resources/pdf/quality_standards/advisory-on-aswagandha.pdf"
+    },
+    {
+      "name": "WHO, Quality control methods for medicinal plant materials",
+      "url": "https://www.who.int/docs/default-source/medicines/norms-and-standards/guidelines/quality-control/quality-control-methods-for-medicinal-plant-materials.pdf"
+    },
+    {
+      "name": "European Commission, Regulation (EU) 2023/915",
+      "url": "https://eur-lex.europa.eu/eli/reg/2023/915/eng"
+    },
+    {
+      "name": "Government of India, Ministry of Commerce tariff schedule",
+      "url": "https://www.commerce.gov.in/wp-content/uploads/2025/12/17062025_Final-Updated_2A-India-Goods-Schedule-Cleanv2-uploaded.pdf"
+    }
+  ],
+  "publication_status": "Research draft; verify current amendments, exact HS classifications and buyer-specific specifications before commercial publication."
+}
