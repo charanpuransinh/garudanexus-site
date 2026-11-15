@@ -1,0 +1,46 @@
+﻿n,hindi,english,spec,filename,category
+1,सोलर पैनल मोनो,Solar Panel Mono,"540W, 2278×1134mm",01-solar-panel-mono-540w.jpg,main
+2,बाइफेशियल पैनल,Bifacial Panel,580W,02-solar-panel-bifacial-580w.jpg,main
+3,ऑन-ग्रिड इन्वर्टर,On-Grid Inverter,5kW–110kW,03-inverter-on-grid.jpg,main
+4,हाइब्रिड इन्वर्टर,Hybrid Inverter,5kW–10kW,04-inverter-hybrid.jpg,main
+5,माइक्रो इन्वर्टर,Micro Inverter,800W,05-inverter-micro.jpg,main
+6,लिथियम बैटरी,Lithium Battery,5kWh–10kWh,06-battery-lithium.jpg,main
+7,चार्ज कंट्रोलर,Charge Controller,60A MPPT,07-charge-controller-mppt.jpg,main
+8,सोलर चार्जर किट,Solar Charger Kit,12V / 24V,08-solar-charger-kit.jpg,main
+9,रूफटॉप स्ट्रक्चर,Rooftop Structure,"GI, 1kW–100kW",09-structure-rooftop.jpg,structure
+10,ग्राउंड स्ट्रक्चर,Ground Structure,"GI, 3m",10-structure-ground.jpg,structure
+11,कारपोर्ट स्ट्रक्चर,Carport Structure,GI,11-structure-carport.jpg,structure
+12,रेल,Rail,"Aluminium, 4.2m",12-rail-aluminium.jpg,structure
+13,पर्लिन,Purlin,GI C-Channel,13-purlin-gi.jpg,structure
+14,मिड क्लैंप,Mid Clamp,Aluminium,14-clamp-mid.jpg,structure
+15,एंड क्लैंप,End Clamp,Aluminium,15-clamp-end.jpg,structure
+16,बोल्ट-नट किट,Bolt Nut Kit,"SS304, M8 / M10",16-bolt-nut-kit.jpg,structure
+17,फाउंडेशन बोल्ट,Foundation Bolt,"M16, 300mm",17-foundation-bolt.jpg,structure
+18,डीसी केबल लाल,DC Cable Red,"4 sq.mm, 1000V",18-cable-dc-red.jpg,cable
+19,डीसी केबल काला,DC Cable Black,4 sq.mm,19-cable-dc-black.jpg,cable
+20,एसी केबल,AC Cable,"4 Core, 6 sq.mm",20-cable-ac.jpg,cable
+21,अर्थिंग केबल,Earthing Cable,"Green, 6 sq.mm",21-cable-earthing.jpg,cable
+22,MC4 कनेक्टर मेल,MC4 Male,1000V,22-mc4-male.jpg,cable
+23,MC4 कनेक्टर फीमेल,MC4 Female,1000V,23-mc4-female.jpg,cable
+24,केबल टाई,Cable Tie,"UV, 300mm",24-cable-tie.jpg,cable
+25,केबल ट्रे,Cable Tray,"GI, 100mm",25-cable-tray.jpg,cable
+26,कॉम्बाइनर बॉक्स,Combiner Box,2-in-1 to 6-in-1,26-combiner-box.jpg,safety
+27,डीसीडीबी,DCDB Box,"1000V, IP65",27-dcdb-box.jpg,safety
+28,एसीडीबी,ACDB Box,"415V, IP65",28-acdb-box.jpg,safety
+29,एसपीडी,SPD,"Type 2, 1000V",29-spd.jpg,safety
+30,डीसी एमसीबी,DC MCB,"32A, 1000V",30-mcb-dc.jpg,safety
+31,डीसी फ्यूज,DC Fuse,15A / 20A,31-fuse-dc.jpg,safety
+32,आइसोलेटर स्विच,Isolator Switch,32A,32-isolator-switch.jpg,safety
+33,अर्थिंग रॉड,Earthing Rod,"Copper, 3m",33-earthing-rod.jpg,safety
+34,लाइटनिंग अरेस्टर,Lightning Arrester,"3m, ESE",34-lightning-arrester.jpg,safety
+35,अर्थिंग स्ट्रिप,Earthing Strip,Copper 25×3mm,35-earthing-strip.jpg,safety
+36,अर्थ पिट कवर,Earth Pit Cover,GI,36-earth-pit-cover.jpg,safety
+37,डेटा लॉगर,Data Logger,WiFi / GPRS,37-data-logger.jpg,monitoring
+38,वाईफाई डोंगल,WiFi Dongle,Inverter,38-wifi-dongle.jpg,monitoring
+39,एनर्जी मीटर,Energy Meter,3-Phase,39-energy-meter.jpg,monitoring
+40,नेट मीटर,Net Meter,Bi-directional,40-net-meter.jpg,monitoring
+41,सीटी कॉइल,CT Coil,100A / 5A,41-ct-coil.jpg,monitoring
+42,क्लीनिंग ब्रश,Cleaning Brush,5m Handle,42-cleaning-brush.jpg,spare
+43,क्लीनिंग स्प्रिंकलर,Cleaning Sprinkler,360°,43-cleaning-sprinkler.jpg,spare
+44,स्पेयर MC4 किट,Spare MC4 Kit,10 Pair,44-spare-mc4-kit.jpg,spare
+45,टूल किट,Tool Kit,Crimper + Spanner,45-tool-kit.jpg,spare
